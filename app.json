@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "RazorpayPayment",
-    "slug": "RazorpayPayment",
+    "name": "RazorpayDemo",
+    "slug": "RazorpayDemo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

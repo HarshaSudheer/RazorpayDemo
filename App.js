@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
 
+import RazorpayScreen from './src/screens/RazorpayScreen';
+
 const App = () => {
   const [isPayClicked, setIsPayClicked] = useState(false);
 
@@ -14,7 +16,7 @@ const App = () => {
           </TouchableOpacity>
         </View>
         :
-        <></>
+        <RazorpayScreen/>
       }
     </>
   );
